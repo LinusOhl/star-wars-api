@@ -1,0 +1,26 @@
+@import "bootstrap/scss/bootstrap";
+
+$yellow: #ffe81f;
+$yellow-dark: #e4c22b;
+
+body {
+  background-color: #000;
+  background-image: url("../images/black-felt.png");
+  color: white;
+  font-family: "Geologica", sans-serif;
+  font-weight: 200;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Righteous", cursive;
+}
+
+.navbar-yellow {
+  background-color: $yellow;
+  color: #000;
+}
